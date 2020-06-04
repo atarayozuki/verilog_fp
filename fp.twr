@@ -1,0 +1,133 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf
+
+Design file:              fp.ncd
+Physical constraint file: fp.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.15 2010-12-02)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+d5          |    1.810(R)|      SLOW  |   -0.792(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+d6          |    2.996(R)|      SLOW  |   -1.379(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+d7          |    2.982(R)|      SLOW  |   -1.327(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+d8          |    2.717(R)|      SLOW  |   -1.248(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+r1          |    4.152(R)|      SLOW  |   -0.396(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+r3          |    4.753(R)|      SLOW  |   -0.299(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+s1          |    3.747(R)|      SLOW  |    0.170(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+s4          |    4.980(R)|      SLOW  |   -0.658(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+s8          |    4.450(R)|      SLOW  |   -0.762(R)|      SLOW  |sysclk_OBUF_BUFG  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+bck         |         7.365(R)|      SLOW  |         3.751(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+cs1         |         8.887(R)|      SLOW  |         4.674(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+cs2         |         8.403(R)|      SLOW  |         4.425(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+data        |         7.989(R)|      SLOW  |         3.831(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db0         |        17.613(R)|      SLOW  |         5.102(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db1         |        17.711(R)|      SLOW  |         5.100(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db2         |        18.293(R)|      SLOW  |         5.428(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db3         |        16.730(R)|      SLOW  |         5.170(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db4         |        16.432(R)|      SLOW  |         5.142(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db5         |        17.224(R)|      SLOW  |         4.945(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db6         |        17.202(R)|      SLOW  |         5.046(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+db7         |        17.562(R)|      SLOW  |         5.920(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+di          |         9.171(R)|      SLOW  |         4.921(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+dn          |         9.841(R)|      SLOW  |         5.048(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         8.867(F)|      SLOW  |         4.096(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+en          |         8.653(R)|      SLOW  |         4.554(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+l1          |        10.425(R)|      SLOW  |         5.273(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+l2          |        10.393(R)|      SLOW  |         5.464(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+l3          |        10.326(R)|      SLOW  |         5.397(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+l4          |        11.153(R)|      SLOW  |         5.867(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld          |        10.493(R)|      SLOW  |         5.417(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         9.320(F)|      SLOW  |         4.269(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0000      |         8.499(R)|      SLOW  |         4.132(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0001      |         9.040(R)|      SLOW  |         3.844(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0010      |         9.006(R)|      SLOW  |         3.814(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0011      |         8.713(R)|      SLOW  |         4.235(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0100      |         8.588(R)|      SLOW  |         3.877(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0101      |         8.691(R)|      SLOW  |         3.767(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0110      |         8.546(R)|      SLOW  |         4.047(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld0111      |         8.683(R)|      SLOW  |         4.231(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1000      |         9.306(R)|      SLOW  |         4.433(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1001      |         9.355(R)|      SLOW  |         4.425(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1010      |         9.287(R)|      SLOW  |         4.558(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1011      |         9.346(R)|      SLOW  |         4.514(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1100      |         9.238(R)|      SLOW  |         4.495(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1101      |         9.523(R)|      SLOW  |         4.696(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1110      |         8.467(R)|      SLOW  |         4.136(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ld1111      |         9.255(R)|      SLOW  |         4.258(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+lu          |        10.611(R)|      SLOW  |         5.561(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         8.848(F)|      SLOW  |         4.189(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ml          |        10.398(R)|      SLOW  |         5.489(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         9.470(F)|      SLOW  |         4.585(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+mr          |        10.087(R)|      SLOW  |         5.275(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         9.159(F)|      SLOW  |         4.371(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+rd          |        10.108(R)|      SLOW  |         5.149(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         8.900(F)|      SLOW  |         4.030(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ru          |        10.376(R)|      SLOW  |         5.452(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         9.123(F)|      SLOW  |         4.253(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+up          |        10.090(R)|      SLOW  |         5.398(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+            |         8.574(F)|      SLOW  |         4.069(F)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+ws          |         7.122(R)|      SLOW  |         3.592(R)|      FAST  |sysclk_OBUF_BUFG  |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |    7.182|    2.413|         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clk            |sysclk         |    7.915|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jun 25 09:01:04 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+

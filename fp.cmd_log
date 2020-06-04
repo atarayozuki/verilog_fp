@@ -1,0 +1,94 @@
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+xst -intstyle ise -ifn "D:/9721108/fp/fp.xst" -ofn "D:/9721108/fp/fp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fp.ucf -p xc6slx16-csg324-3 fp.ngc fp.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fp_map.ncd fp.ngd fp.pcf 
+par -w -intstyle ise -ol high -mt off fp_map.ncd fp.ncd fp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fp.twx fp.ncd -o fp.twr fp.pcf -ucf fp.ucf 
+bitgen -intstyle ise -f fp.ut fp.ncd 

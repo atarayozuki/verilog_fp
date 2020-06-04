@@ -1,0 +1,8 @@
+Release 12.4 Drc M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Mon Jun 25 09:01:35 2012
+
+drc -z fp.ncd fp.pcf
+
+DRC detected 0 errors and 0 warnings.

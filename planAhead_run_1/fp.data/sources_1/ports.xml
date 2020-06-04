@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="cs1" Dir="OUT"/>
+		<Port Id="cs2" Dir="OUT"/>
+		<Port Id="db0" Dir="OUT"/>
+		<Port Id="db1" Dir="OUT"/>
+		<Port Id="db2" Dir="OUT"/>
+		<Port Id="db3" Dir="OUT"/>
+		<Port Id="db4" Dir="OUT"/>
+		<Port Id="db5" Dir="OUT"/>
+		<Port Id="db6" Dir="OUT"/>
+		<Port Id="db7" Dir="OUT"/>
+		<Port Id="di" Dir="OUT"/>
+		<Port Id="en" Dir="OUT"/>
+		<Port Id="rst" Dir="OUT"/>
+		<Port Id="rw" Dir="OUT"/>
+		<Port Id="clk" Dir="IN"/>
+	</Ifc>
+</Interface>
+

@@ -1,0 +1,131 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sat Jun 23 00:16:58 2012
+# Process ID: 2680
+# Log file: D:/9721108/fp/planAhead_run_1/planAhead.log
+# Journal file: D:/9721108/fp/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source D:/9721108/fp/pa.fromHdl.tcl
+# create_project -name fp -dir "D:/9721108/fp/planAhead_run_1" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top fp $srcset
+# set_param project.paUcfFile  "fp.ucf"
+# set hdlfile [add_files [list {fp.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "fp.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "D:\9721108\fp\fp.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <fp>.
+INFO: [HD-RTLIN 2] Elaborating module <fp>.
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [HD-ArchReader 13] Loading package pin functions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan6/PinFunctions.xml...
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan6/IOStandards.xml
+INFO: [HD-ArchReader 12] Loading device configuration modes from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan6/ConfigModes.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan6/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\fp.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\fp.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by L on host acer-b4b201dd2f, pid 2680
+          on Sat Jun 23 00:18:07 2012
+
+REPORT SUMMARY
+            Netlist: fp
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 13
+
+REPORT DETAILS
+ULMN#1
+Unknown block name - <no location>
+Block name RTL_FDRSE is not a valid Unisim for the specified architecture. No block of type RTL_FDRSE exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#2
+Unknown block name - <no location>
+Block name RTL_INV is not a valid Unisim for the specified architecture. No block of type RTL_INV exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#3
+Unknown block name - <no location>
+Block name RTL_reduce_or_3 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_or_3 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#4
+Unknown block name - <no location>
+Block name RTL_OR is not a valid Unisim for the specified architecture. No block of type RTL_OR exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#5
+Unknown block name - <no location>
+Block name RTL_AND is not a valid Unisim for the specified architecture. No block of type RTL_AND exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#6
+Unknown block name - <no location>
+Block name RTL_reduce_and_3 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_and_3 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#7
+Unknown block name - <no location>
+Block name RTL_XOR is not a valid Unisim for the specified architecture. No block of type RTL_XOR exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#8
+Unknown block name - <no location>
+Block name RTL_reduce_or_30 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_or_30 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#9
+Unknown block name - <no location>
+Block name RTL_reduce_or_1028 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_or_1028 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#10
+Unknown block name - <no location>
+Block name RTL_reduce_and_4 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_and_4 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#11
+Unknown block name - <no location>
+Block name RTL_reduce_and_13 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_and_13 exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#12
+Unknown block name - <no location>
+Block name RTL_GND is not a valid Unisim for the specified architecture. No block of type RTL_GND exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#13
+Unknown block name - <no location>
+Block name RTL_PWR is not a valid Unisim for the specified architecture. No block of type RTL_PWR exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+startgroup
+set_property loc PAD153 [get_ports clk]
+set_property is_fixed true  [get_ports clk]
+endgroup
+save_design
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead
